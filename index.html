@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saradhi Travels - Notice</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam&display=swap" rel="stylesheet">
+
+  <style>
+   body {
+  margin: 0;
+  font-family: 'Noto Sans Malayalam', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh; /* ✅ fix */
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #fff;
+  max-width: 850px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* ✅ LOGO FIX (center + fixed size) */
+.logo {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.location {
+  color: #666;
+  font-size: 16px;
+}
+
+a {
+  color: #b22222;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+/* ✅ MOBILE FIX */
+@media (max-width: 600px) {
+
+  body {
+    align-items: flex-start; /* better spacing on mobile */
+  }
+
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
+
+  .location {
+    font-size: 14px;
+  }
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <!-- 🔽 Add your logo image here -->
+    <img src="logo.png" alt="Saradhi Travels Logo" class="logo">
+
+    
+
+    <p>
+      47 വർഷത്തെ സേവനങ്ങൾക്ക് ശേഷം സാരഥി ട്രാവൽസ് 31/03/2026 തീയതിയിൽ സേവനങ്ങൾ പൂർണ്ണമായി അവസാനിപ്പിച്ചിരിക്കുന്നു.
+      എല്ലാ സ്റ്റാഫുകളേയും പിരിച്ചുവിട്ടു.
+    </p>
+
+    <p>
+      മറ്റൊരു ട്രാവൽ ഏജൻസികളുമായും മാനേജ്മെന്റിന് ബന്ധമില്ലാത്തതാണ്.
+      മറ്റേതെങ്കിലും സ്ഥാപനങ്ങളുമായുള്ള ക്രയവിക്രയങ്ങൾക്ക് സാരഥി മാനേജ്മെന്റ് ഉത്തരവാദിയായിരിക്കുന്നതുമല്ല.
+    </p>
+
+    <p>
+      ഞങ്ങളുടെ യാത്രയിൽ കൂടെനിന്ന എല്ലാവർക്കും ഹൃദയം നിറഞ്ഞ നന്ദി അറിയിക്കുന്നു.
+    </p>
+
+    <div class="footer">തമ്പാൻ തോലത്ത്</div>
+    <div class="location">സാരഥി ട്രാവൽസ്, കുന്നംകുളം</div>
+   <p style="margin-top:20px; font-size:16px;">Email: 
+  <a href="mailto:info@saradhitravels.com" style="color:#b22222; text-decoration:none;">
+    info@saradhitravels.com
+  </a>
+</p>
+
+  </div>
+
+</body>
+</html>
